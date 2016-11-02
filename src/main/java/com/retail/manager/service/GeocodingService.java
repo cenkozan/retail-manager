@@ -1,7 +1,7 @@
 package com.retail.manager.service;
 
-import com.retail.manager.model.Shop;
+import com.retail.manager.model.ShopAddress;
 
 public interface GeocodingService {
-  Shop.ShopAddress getShopAddress(int number, String postCode);
+  ShopAddress retrieveGeocode(ShopAddress shopAddress);
 }

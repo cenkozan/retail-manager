@@ -15,7 +15,6 @@ public class ShopServiceTests {
 
   @Test
   public void addShopTest() {
-
     shopService.addShop("shop1", 141, "HA6 1RF");
   }
 }
